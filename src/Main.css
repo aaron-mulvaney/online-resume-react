@@ -41,7 +41,6 @@ a:focus {
     color: #fff;
     transition: all 0.3s;
     overflow-y: scroll;
-
 }
 
 #sidebar.active {
@@ -127,7 +126,7 @@ a.article:hover {
 
 #content {
     width: calc(100% - 250px);
-    padding: 40px;
+    padding: 20px;
     min-height: 100vh;
     transition: all 0.3s;
     position: absolute;
@@ -138,6 +137,10 @@ a.article:hover {
 #content.active {
     width: 100%;
     margin-left: -250px;
+}
+
+#sub-content{
+    padding-top: 1em;
 }
 
 /* ---------------------------------------------------
@@ -162,7 +165,7 @@ a.article:hover {
     }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 425px) {
     #sidebar {
         margin-left: -250px;
         width: 50%;
@@ -170,9 +173,52 @@ a.article:hover {
     #sidebar.active {
         margin-left: 0;
     }
-    #content.active {
-      width: calc(100% - 250px);
+    #content {
+        width: 100%;
     }
+    #content.active {
+        width: calc(100% - 200px);
+    }
+    #sidebarCollapse span {
+        display: none;
+    }
+    #sub-content.inactive {
+        transition: all .3s;
+    }
+
+    #sub-content.active{
+        transition: all .3s;
+        margin-left: -200px;    
+    }
+}
+
+@media (max-width: 350px) {
+    #sidebar {
+        margin-left: -250px;
+        width: 50%;
+    }
+
+    #sidebar .sidebar-header {
+        margin-left: -10px;
+    }
+
+    #sidebar.active {
+        margin-left: 0;
+    }
+
+    #content.active {
+        width: calc(100% - 160px);
+    }
+
+    #sub-content.inactive {
+        transition: all .3s;
+    }
+
+    #sub-content.active{
+        transition: all .3s;
+        margin-left: -160px;    
+    }
+
     #sidebarCollapse span {
         display: none;
     }

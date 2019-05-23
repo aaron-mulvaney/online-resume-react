@@ -28,19 +28,21 @@ function Main() {
             </ul>
             <ul class="list-unstyled CTAs">
               <li>
-                <a href="https://github.com/aaron-mulvaney/CV/archive/master.zip" class="download">Download my CV</a>
+                <a href="https://drive.google.com/open?id=1CLTEP5eachGDxkui85H2Gb2bXpIHSePh" class="download">Download my CV</a>
               </li>
             </ul>
           </nav>
         </HashRouter>
         <HashRouter>
           <div id="content">
-              <button type="button" id="sidebarCollapse" class="btn btn-info">
-                <i class="fas fa-align-left"></i>
-              </button>
-            <Route path="/profile" component={Profile} />
-            <Route path="/experience" component={Experience} />
-            <Route path="/education" component={Education} />
+            <button id="nav-button" type="button" id="sidebarCollapse" class="btn btn-info">
+              <i class="fas fa-align-left"></i>
+            </button>
+            <div id="sub-content" class="inactive">
+              <Route exact path="/profile" component={Profile} />
+              <Route exact path="/experience" component={Experience} />
+              <Route exact path="/education" component={Education} />
+            </div>
           </div>
         </HashRouter>
       </div>
