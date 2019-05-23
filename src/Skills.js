@@ -1,13 +1,14 @@
 import React, { Component } from "react";
+import './Skills.css';
 
-class Profile extends Component {
+class Skills extends Component {
   render() {
     return (
       <div>
-        <h2>Profile this is a test</h2>
+        <h2>Skills</h2>
       </div>
     );
   }
 }
 
-export default Profile;
+export default Skills;

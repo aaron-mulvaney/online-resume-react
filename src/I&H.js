@@ -1,13 +1,14 @@
 import React, { Component } from "react";
+import './I&H.css';
 
-class Profile extends Component {
+class IH extends Component {
   render() {
     return (
       <div>
-        <h2>Profile this is a test</h2>
+        <h2>Ints & Hobbs</h2>
       </div>
     );
   }
 }
 
-export default Profile;
+export default IH;
