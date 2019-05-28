@@ -1,0 +1,95 @@
+#container h1, h2{
+    text-align: center;
+    color: #17a2b8;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+#container h1{
+    margin-top: 100px;
+}
+
+#container {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#container p{
+    color: black;
+}
+
+#container img{
+    align-self: center;
+    margin-top: -75px;
+    width: 100%;
+    height: auto;
+    align-self: center;}
+
+hr {
+    margin: 40px 0px;
+    border-color: #727878;
+    opacity: 0.2;   
+}
+
+.fa-lin{
+    font-size: 40px;
+    width: 40px;
+    text-align: center;
+    text-decoration: none;
+    color: #0e76a8;
+}
+
+
+.fa-github {
+    font-size: 40px;
+    width: 40px;
+    text-align: center;
+    text-decoration: none;
+    margin-left: 5px;
+    color: black;
+}
+
+.fa-goo {
+    font-size: 40px;
+    width: 40px;
+    text-align: center;
+    text-decoration: none;
+    margin-left: 5px;
+    color: #D44638;
+}
+
+.fa:hover {
+    opacity: 0.7;
+  }
+
+/* ---------------------------------------------------
+    MEDIAQUERIES
+----------------------------------------------------- */
+
+@media (max-width: 768px) {
+    #container p{
+        font-size: 0.9em;
+    }
+    #container {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #tophr{
+        margin-top: 100px;
+    }
+    #container img{
+        padding: 70px 0;
+        align-self: center;
+    }
+}
+
+@media (max-width: 425px) {
+
+}
+
+@media (max-width: 350px) {
+
+    
+}
