@@ -16,7 +16,7 @@ class Profile extends Component {
               Sample Text
           </p>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-4 ">
             <br></br>
             <br></br>
             <img src="./aaron-bitmoji.png" />

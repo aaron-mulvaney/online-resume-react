@@ -9,7 +9,25 @@ p {
     font-size: 1.1em;
     font-weight: 300;
     line-height: 1.7em;
-    color: #999;
+    color: #000;
+}
+
+h1, h2{
+    text-align: center;
+    color: #17a2b8;
+
+}
+
+h1{
+    font-size: 50px;
+    font-family: 'Open Sans', sans-serif !important;
+    margin-top: 100px;
+}
+
+hr {
+    margin: 40px 0px;
+    border-color: #727878;
+    opacity: 0.2;   
 }
 
 a,
@@ -24,8 +42,12 @@ a:focus {
     color: #F3EFE0;
     background-color: #17a2b8;
     border-color: #17a2b8;
-    position: fixed
+    position: fixed;
+    z-index: 100;
+    opacity: .8;
 }
+
+
 
 /* ---------------------------------------------------
     SIDEBAR STYLE
@@ -155,7 +177,6 @@ a.article:hover {
     animation: fadein 2s;
     -moz-animation: fadein 2s; 
     -webkit-animation: fadein 2s;
-    border-radius: 4px;
 }
 
 @keyframes fadein {
@@ -196,6 +217,8 @@ a.article:hover {
 /* ---------------------------------------------------
     MEDIAQUERIES
 ----------------------------------------------------- */
+
+
 
 @media (max-width: 768px) {
     #sidebar {
