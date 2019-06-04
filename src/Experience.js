@@ -17,7 +17,7 @@ class Experience extends Component {
             <div class="col-md-4">
               <h4 class="exp_headings">Technology University Dublin</h4>
               <p>2014 - 2018 - First Class Honours</p>
-              <img class="text-center" src="./tud.png" />
+              <a href="https://www.it-tallaght.ie/"><img class="text-center" src="./tud.png" /></a>
             </div>
             <div class="col-md-8">
               <h5 class="exp_title">Bachelor - Computer Science (Sepcialization: Software Development)</h5>
@@ -34,14 +34,17 @@ class Experience extends Component {
           </div>
           <div class="experience row">
             <div class="col-md-4">
-              <h4 class="exp_headings">Houghton Mifflin Harcourt</h4>
+              <h4 class="exp_headings">Houghton Mifflin Harcourt (HMH)</h4>
               <p>March 2019 - Present</p>
-              <img class="logos" src="./hmh.png" />
+              <a href="https://www.hmhco.com/"><img class="img-responsive" src="./hmh.png" /></a>
             </div>
             <div class="col-md-8">
               <h5 class="exp_title">Application Support Engineer</h5>
               <p>
-
+                My current role as Application Support Engineer at HMH is comprised of many responsibilities such as:
+                Design, development and maintenance of tools to triage/solve customer issues (tickets), assisting offshore vendor teams with their Sprint planning and providing intervention if required,
+                triaging complex customer issues on a multi-platform/product level. Other tasks include documentation of all tools and services provided by the Support Operations Department,
+                fulfilling feature requests on our Release Management System which is comprised of a Java Web application hosted using Tomcat, along with a MySQL Database.
               </p>
             </div>
           </div>
@@ -49,12 +52,14 @@ class Experience extends Component {
             <div class="col-md-4">
               <h4 class="exp_headings">Version 1</h4>
               <p>June 2018 - March 2019</p>
-              <img class="logos" src="./v1.jpg" />
+              <a href="https://www.version1.com/"><img src="./v1.jpg" /></a>
             </div>
             <div class="col-md-8">
               <h5 class="exp_title">Associate Consultant</h5>
               <p>
-                Working under Managed Services Practice, maintaining existing customer Middleware (XSLT) systems. Creating XML maps to work with XSD schemas to transform incoming messages into new formats required by the customer.
+                Working under Managed Services Practice at Version 1, I worked maintaining existing customer Middleware (XSLT) systems. Creating XML maps in conjunction with XSD schemas to transform incoming messages into new formats required by the customer.
+                Handling/Completing customer feature/workflow requests, there was a lot involved in this process: Initially a customer would request a new feature or workflow on the Middleware system, I was first point of contact, we would assist the customer in completing a request
+                with as much information as possible in order to provide an accurate cost estimate (also provided by me). Once confirmed by the customer I would develop the new feature End to End, testing heavily throughout. All work was tracked using an internal ticketing system similar to JIRA.
             </p>
             </div>
           </div>
@@ -62,7 +67,7 @@ class Experience extends Component {
             <div class="col-md-4">
               <h4 class="exp_headings">Halfords</h4>
               <p>June 2014 - June 2018</p>
-              <img class="logos" src="./halfords.jpg" />
+              <a href="https://www.halfords.ie/"><img src="./halfords.jpg" /></a>
             </div>
             <div class="col-md-8">
               <h5 class="exp_title">Sales Advisor (Car Technology)</h5>
@@ -93,14 +98,35 @@ class Experience extends Component {
             <div class="col-md-4">
               <h4 class="exp_headings">Openet</h4>
               <p>February 2017 - July 2017</p>
-              <img class="logos" src="./openet.jpeg" />
+              <a href="https://www.openet.com/"><img src="./openet.jpeg" /></a>
             </div>
             <div class="col-md-8">
               <h5 class="exp_title">Software Engineer</h5>
               <p>
-              My internship with Openet was my first exposure with large scale business applications, both implemented and in development. 
-              In an Agile environment my team worked to deliver bespoke functionality on existing products for customers. 
-              We used Kanban methodology with the use of JIRA to maintain tasks on each project. E2E testing was necessary to ensure the added functionality performed as expected.
+                My internship with Openet was my first exposure with large scale business applications, both implemented and in development.
+                In an Agile environment my team worked to deliver bespoke functionality on existing products for customers.
+                We used Kanban methodology with the use of JIRA to maintain tasks on each project. E2E testing was necessary to ensure the added functionality performed as expected.
+              </p>
+            </div>
+          </div>
+          <hr></hr>
+          <div class="experience row">
+            <div class="col-md-4">
+              <h2 class="exp_h2">Certifications</h2>
+            </div>
+            <div class="col-md-8">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-4">
+              <h4 class="exp_headings">People Cert</h4>
+              <p>August 2018</p>
+              <a href="https://www.peoplecert.org/"><img src="./peoplecert.png" /></a>
+            </div>
+            <div class="col-md-8">
+              <h5 class="exp_title">ITIL Foundation Certification</h5>
+              <p>
+              I hold a certification in ITIL Service Management framework which was awarded by PeopleCert.
               </p>
             </div>
           </div>
@@ -113,10 +139,8 @@ class Experience extends Component {
             </div>
           </div>
           <div class="row">
-            <div class="col-md-12">
-            </div>
+
           </div>
-          <hr></hr>
         </div>
       </div>
     );
