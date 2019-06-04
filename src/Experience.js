@@ -17,6 +17,7 @@ class Experience extends Component {
             <div class="col-md-4">
               <h4 class="exp_headings">Technology University Dublin</h4>
               <p>2014 - 2018 - First Class Honours</p>
+              <img class="text-center" src="./tud.png" />
             </div>
             <div class="col-md-8">
               <h5 class="exp_title">Bachelor - Computer Science (Sepcialization: Software Development)</h5>
@@ -35,6 +36,7 @@ class Experience extends Component {
             <div class="col-md-4">
               <h4 class="exp_headings">Houghton Mifflin Harcourt</h4>
               <p>March 2019 - Present</p>
+              <img class="logos" src="./hmh.png" />
             </div>
             <div class="col-md-8">
               <h5 class="exp_title">Application Support Engineer</h5>
@@ -47,6 +49,7 @@ class Experience extends Component {
             <div class="col-md-4">
               <h4 class="exp_headings">Version 1</h4>
               <p>June 2018 - March 2019</p>
+              <img class="logos" src="./v1.jpg" />
             </div>
             <div class="col-md-8">
               <h5 class="exp_title">Associate Consultant</h5>
@@ -59,6 +62,7 @@ class Experience extends Component {
             <div class="col-md-4">
               <h4 class="exp_headings">Halfords</h4>
               <p>June 2014 - June 2018</p>
+              <img class="logos" src="./halfords.jpg" />
             </div>
             <div class="col-md-8">
               <h5 class="exp_title">Sales Advisor (Car Technology)</h5>
@@ -89,6 +93,7 @@ class Experience extends Component {
             <div class="col-md-4">
               <h4 class="exp_headings">Openet</h4>
               <p>February 2017 - July 2017</p>
+              <img class="logos" src="./openet.jpeg" />
             </div>
             <div class="col-md-8">
               <h5 class="exp_title">Software Engineer</h5>

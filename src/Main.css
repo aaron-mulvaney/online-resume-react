@@ -162,7 +162,7 @@ a.article:hover {
     right: 0;
     background-color: #F3EFE0;
     padding: 10px;
-
+    transition: all 0.3s;
 }
 
 #content.active {

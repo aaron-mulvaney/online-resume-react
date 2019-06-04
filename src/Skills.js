@@ -4,8 +4,10 @@ import './Skills.css';
 class Skills extends Component {
   render() {
     return (
-      <div>
-        <h2>Skills</h2>
+      <div id="exp_container">
+        <h1>Skills</h1>
+        <hr id="tophr"></hr>
+        <hr></hr>
       </div>
     );
   }

@@ -20,8 +20,28 @@
     font-weight: bold;
 }
 
+img{
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+}
+
+.row{
+    margin-bottom: 1em;
+}
+
 @media (max-width: 1600px) {
     #exp_container {
         width: 90%;
+    }
+}
+
+@media (max-width: 767px) {
+    img{
+        margin-bottom: 2em;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
     }
 }

@@ -4,8 +4,10 @@ import './Projects.css';
 class Projects extends Component {
   render() {
     return (
-      <div>
-        <h2>Projects</h2>
+      <div id="exp_container">
+        <h1>Projects</h1>
+        <hr id="tophr"></hr>
+        <hr></hr>
       </div>
     );
   }

@@ -24,7 +24,7 @@ function Main() {
             <div class="sidebar-header">
               <h3>Aaron Mulvaney</h3>
             </div>
-            <ul className="list-unstyled components">
+            <ul id="nav_list" className="list-unstyled components">
               <p>Curriculum Vitae</p>
               <li><NavLink to="/">Profile</NavLink></li>
               <li><NavLink to="/experience">Experiences</NavLink></li>
