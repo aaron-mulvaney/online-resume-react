@@ -8,7 +8,12 @@ class Profile extends Component {
         <h1>Profile</h1>
         <hr id="tophr"></hr>
         <div class="row">
-          <div class="col-md-4">
+          <div class="col-md-12">
+          <div class="text-center"><img src="./aaron-bitmoji.png" /></div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
             <h2>
               About me
           </h2>
@@ -16,12 +21,7 @@ class Profile extends Component {
               Sample Text
           </p>
           </div>
-          <div class="col-md-4 ">
-            <br></br>
-            <br></br>
-            <img src="./aaron-bitmoji.png" />
-          </div>
-          <div class="col-md-4">
+          <div class="col-md-6">
             <h2>
               Contact / Details
           </h2>
