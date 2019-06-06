@@ -11,3 +11,9 @@
 #proj_container .row{
     margin-bottom: 40px;
 }
+
+@media (max-width: 1600px) {
+    #proj_container {
+        width: 90%;
+    }
+}

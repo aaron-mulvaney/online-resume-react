@@ -11,3 +11,9 @@
 #skills_container .row{
     margin-bottom: 40px;
 }
+
+@media (max-width: 1600px) {
+    #skills_container {
+        width: 90%;
+    }
+}
