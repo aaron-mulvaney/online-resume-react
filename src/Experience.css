@@ -44,11 +44,8 @@ img{
 }
 
 @media (max-width: 767px) {
-    img{
-        margin-bottom: 2em;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 50%;
+    .exp_title{
+        margin-top: 30px;
+        font-size: 20px;
     }
 }
