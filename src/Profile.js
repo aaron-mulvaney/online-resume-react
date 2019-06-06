@@ -23,7 +23,7 @@ class Profile extends Component {
           </div>
           <div class="col-md-4">
             <h2>
-              Details
+              Contact / Details
           </h2>
             <h5>Name:</h5>
             <p>
@@ -35,12 +35,13 @@ class Profile extends Component {
             </p>
             <h5>Location:</h5>
             <p>
-              Dublin, Ireland
+            <a href="https://goo.gl/maps/JNsw4QZnLKF58eP58" target="_blank"><i class="fa fa-location-arrow"></i> Dublin, Ireland</a>
             </p>
             <div id="soc-buttons">
               <a class="fa fa-lin fa-linkedin-square" href="https://www.linkedin.com/in/aaronmulvaney/" />
               <a class="fa fa-github fa-github" href="https://github.com/mulvaney08" />
               <a class="fa fa-goo fa-google" href="mailto://aaronmulvaney@gmail.com" />
+              <i class="fa fa-phone fa-phone"><a class="phone_tip" data-toggle="tooltip" title data-original-title="+353858241413" href="tel:+353858241413"/></i>            
             </div>
           </div>
         </div>

@@ -17,7 +17,7 @@ class Experience extends Component {
             <div class="col-md-4">
               <h4 class="exp_headings">Technology University Dublin</h4>
               <p>2014 - 2018 - First Class Honours</p>
-              <a href="https://www.it-tallaght.ie/"><img class="text-center" src="./tud.png" /></a>
+              <a href="https://www.it-tallaght.ie/" target="_blank"><i class="fa fa-link"></i> https://www.it-tallaght.ie/</a>
             </div>
             <div class="col-md-8">
               <h5 class="exp_title">Bachelor - Computer Science (Sepcialization: Software Development)</h5>
@@ -35,8 +35,8 @@ class Experience extends Component {
           <div class="experience row">
             <div class="col-md-4">
               <h4 class="exp_headings">Houghton Mifflin Harcourt (HMH)</h4>
-              <p>March 2019 - Present</p>
-              <a href="https://www.hmhco.com/"><img class="img-responsive" src="./hmh.png" /></a>
+              <p>Currently work here</p>
+              <a href="https://www.hmhco.com/" target="_blank"><i class="fa fa-link"></i> HMH</a>
             </div>
             <div class="col-md-8">
               <h5 class="exp_title">Application Support Engineer</h5>
@@ -52,12 +52,12 @@ class Experience extends Component {
             <div class="col-md-4">
               <h4 class="exp_headings">Version 1</h4>
               <p>June 2018 - March 2019</p>
-              <a href="https://www.version1.com/"><img src="./v1.jpg" /></a>
+              <a href="https://www.version1.com/" target="_blank"><i class="fa fa-link"></i> Version 1</a>
             </div>
             <div class="col-md-8">
               <h5 class="exp_title">Associate Consultant</h5>
               <p>
-                Working under Managed Services Practice at Version 1, I worked maintaining existing customer Middleware (XSLT) systems. Creating XML maps in conjunction with XSD schemas to transform incoming messages into new formats required by the customer.
+                Working under Managed Services Practice at Version 1, I worked with existing customer Middleware (XSLT) systems. Creating XML maps in conjunction with XSD schemas to transform incoming messages into new formats required by the customer.
                 Handling/Completing customer feature/workflow requests, there was a lot involved in this process: Initially a customer would request a new feature or workflow on the Middleware system, I was first point of contact, we would assist the customer in completing a request
                 with as much information as possible in order to provide an accurate cost estimate (also provided by me). Once confirmed by the customer I would develop the new feature End to End, testing heavily throughout. All work was tracked using an internal ticketing system similar to JIRA.
             </p>
@@ -67,7 +67,7 @@ class Experience extends Component {
             <div class="col-md-4">
               <h4 class="exp_headings">Halfords</h4>
               <p>June 2014 - June 2018</p>
-              <a href="https://www.halfords.ie/"><img src="./halfords.jpg" /></a>
+              <a href="https://www.halfords.ie/" target="_blank"><i class="fa fa-link"></i> Halfords</a>
             </div>
             <div class="col-md-8">
               <h5 class="exp_title">Sales Advisor (Car Technology)</h5>
@@ -98,7 +98,7 @@ class Experience extends Component {
             <div class="col-md-4">
               <h4 class="exp_headings">Openet</h4>
               <p>February 2017 - July 2017</p>
-              <a href="https://www.openet.com/"><img src="./openet.jpeg" /></a>
+              <a href="https://www.openet.com/" target="_blank"><i class="fa fa-link"></i> Openet</a>
             </div>
             <div class="col-md-8">
               <h5 class="exp_title">Software Engineer</h5>
@@ -121,12 +121,12 @@ class Experience extends Component {
             <div class="col-md-4">
               <h4 class="exp_headings">People Cert</h4>
               <p>August 2018</p>
-              <a href="https://www.peoplecert.org/"><img src="./peoplecert.png" /></a>
+              <a href="https://www.peoplecert.org/" target="_blank"><i class="fa fa-link"></i> PeopleCert</a>
             </div>
             <div class="col-md-8">
               <h5 class="exp_title">ITIL Foundation Certification</h5>
               <p>
-              I hold a certification in ITIL Service Management framework which was awarded by PeopleCert.
+                I hold a certification in ITIL Service Management framework which was awarded by PeopleCert.
               </p>
             </div>
           </div>
@@ -139,7 +139,43 @@ class Experience extends Component {
             </div>
           </div>
           <div class="row">
-
+            <div class="col-md-4">
+              <h4 class="exp_headings">Coderdojo</h4>
+              <p>2017</p>
+              <a href="https://coolestprojects.org/" target="_blank"><i class="fa fa-link"></i> Coolest Projects</a>
+            </div>
+            <div class="col-md-8">
+              <h5 class="exp_title">Coolest Projects Mentor / Co-ordinator</h5>
+              <p>
+                I took part in the Coderdojo Coolest Projects 2017 event as a mentor / co-ordinator. Myself and a group of other developers visited a school in Crumlinn once a week, 
+                an hour a day for 8 weeks, in order to teach the childrend the basics of coding.
+              </p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-4">
+              <h4 class="exp_headings">Drumfinn Celtic Football Club</h4>
+              <p>2015 / 2016</p>
+              <a href="http://www.soccer-ireland.com/dublin-football-clubs/drumfinn-celtic.htm" target="_blank"><i class="fa fa-link"></i> Drumfinn Celtic FC</a>
+            </div>
+            <div class="col-md-8">
+              <h5 class="exp_title">Coolest Projects Mentor / Co-ordinator</h5>
+              <p>
+                I Volunteered as an assistant coach for an U11 boys football team for one season during 2015/2016.
+              </p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-4">
+              <h4 class="exp_headings">TUD (ITT) Table Tennis Society</h4>
+              <p>2014 / 2015</p>
+            </div>
+            <div class="col-md-8">
+              <h5 class="exp_title">Public Relations (PR) Officer</h5>
+              <p>
+                I took on the role of PR Officer for the ITT Table Tennis Society during my first year in college. Responsibilities included: Promoting of the Society, organisation of events and designing of posters / logos.
+              </p>
+            </div>
           </div>
         </div>
       </div>

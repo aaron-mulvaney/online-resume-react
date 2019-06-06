@@ -39,6 +39,16 @@
     color: #D44638;
 }
 
+
+.fa-phone {
+    font-size: 40px;
+    width: 40px;
+    text-align: center;
+    text-decoration: none;
+    margin-left: 5px;
+    color: black;
+}
+
 .fa:hover {
     opacity: 0.7;
   }
@@ -60,7 +70,7 @@
 
 @media (max-width: 1600px) {
     #container {
-        width: 90%;
+        width: 80%;
     }
 }
 
