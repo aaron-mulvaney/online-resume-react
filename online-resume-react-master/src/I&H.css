@@ -1,0 +1,13 @@
+#ih_container {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#ih_container p{
+    color: black;
+}
+
+#ih_container .row{
+    margin-bottom: 40px;
+}

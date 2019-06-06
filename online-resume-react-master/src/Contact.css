@@ -1,0 +1,13 @@
+#contact_container {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#contact_container p{
+    color: black;
+}
+
+#contact_container .row{
+    margin-bottom: 40px;
+}
