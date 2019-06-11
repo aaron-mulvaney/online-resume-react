@@ -251,6 +251,7 @@ a.article:hover {
     #sidebar {
         margin-left: -250px;
         width: 200px;
+        overflow-y: scroll;
     }
     #content {
         width: 100%;
