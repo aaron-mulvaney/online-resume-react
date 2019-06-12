@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <!-- Latest compiled and minified CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-  
+
   <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
 
   <!-- jQuery library -->
@@ -38,15 +38,25 @@
 
   <script type="text/javascript">
     $(document).ready(function () {
+      const content = document.getElementById('content');
+
+      toggleClasses = function (){
+        $('#sidebar').toggleClass('active');
+        $('#content').toggleClass('active');
+        $('#rendered-content').toggleClass('active');
+        $('#holder').toggleClass('active');
+      }
+
       $('#sidebarCollapse').on('click', function () {
-        $('#sidebar').toggleClass('active');
-        $('#content').toggleClass('active');
-        $('#rendered-content').toggleClass('active');
+        toggleClasses.call();
       });
+
       $('#nav_list').on('click', function () {
-        $('#sidebar').toggleClass('active');
-        $('#content').toggleClass('active');
-        $('#rendered-content').toggleClass('active');
+        toggleClasses.call();
+      });
+
+      $('#holder').on('click', function () {
+        toggleClasses.call();
       });
     });
 

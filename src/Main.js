@@ -42,6 +42,7 @@ function Main() {
         </HashRouter>
         <HashRouter>
           <div id="content">
+          <div id="holder"></div>
             <div id="navbtn">
               <button id="nav-button" type="button" id="sidebarCollapse" class="btn btn-info">
                 <i
